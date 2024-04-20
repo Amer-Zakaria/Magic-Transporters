@@ -1,0 +1,66 @@
+[
+  {
+    "id": "3e11995c-4ead-4c6d-b434-160cc9fefe3e",
+    "name": "mover 1",
+    "weightLimit": 10,
+    "energy": 99,
+    "questState": "LOADING",
+    "completedMissionsCount": 0
+  },
+  {
+    "id": "7fb76737-4879-446f-bd9b-cc59c905716c",
+    "name": "mover 2",
+    "weightLimit": 10,
+    "energy": 99,
+    "questState": "RESTING",
+    "completedMissionsCount": 0
+  },
+  {
+    "id": "ef8ea09d-7860-41c1-b514-abbea77ae4e9",
+    "name": "mover 3",
+    "weightLimit": 10,
+    "energy": 99,
+    "questState": "RESTING",
+    "completedMissionsCount": 0
+  },
+  {
+    "id": "65c7342e-af8b-4cdb-a638-0dd9093a2fd4",
+    "name": "mover 4",
+    "weightLimit": 4,
+    "energy": 23,
+    "questState": "RESTING",
+    "completedMissionsCount": 0
+  },
+  {
+    "id": "f0727a84-198f-4df1-9b18-0f7529967e7c",
+    "name": "mover 5",
+    "weightLimit": 4,
+    "energy": 23,
+    "questState": "RESTING",
+    "completedMissionsCount": 0
+  },
+  {
+    "id": "8bf6496c-268c-4e1e-b7f9-de406fafd1b3",
+    "name": "mover 6",
+    "weightLimit": 8,
+    "energy": 4,
+    "questState": "RESTING",
+    "completedMissionsCount": 0
+  },
+  {
+    "id": "8a8322ef-2546-418e-ae91-071684e1e2c6",
+    "name": "mover 7",
+    "weightLimit": 9,
+    "energy": 4,
+    "questState": "RESTING",
+    "completedMissionsCount": 0
+  },
+  {
+    "id": "10292374-289f-40c2-be65-24635098f0fd",
+    "name": "mover 8",
+    "weightLimit": 17,
+    "energy": 4,
+    "questState": "RESTING",
+    "completedMissionsCount": 0
+  }
+]

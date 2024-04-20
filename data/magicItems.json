@@ -1,0 +1,44 @@
+[
+  {
+    "id": "14983d67-8096-4c3d-a50b-af67a491ea84",
+    "name": "item 1",
+    "weight": 4,
+    "isBeingUsed": true
+  },
+  {
+    "id": "9d240516-51a8-48f4-85f9-1ee2ea6ecbdb",
+    "name": "item 2",
+    "weight": 7,
+    "isBeingUsed": false
+  },
+  {
+    "id": "67d3aaca-69d9-4a2b-96ab-27b556b53594",
+    "name": "item 3",
+    "weight": 3,
+    "isBeingUsed": false
+  },
+  {
+    "id": "378d363b-2b57-4399-b7c2-84fc98891e45",
+    "name": "item 4",
+    "weight": 5,
+    "isBeingUsed": false
+  },
+  {
+    "id": "07f8f1ba-91a8-4cfa-a031-39d3b7421096",
+    "name": "item 5",
+    "weight": 4,
+    "isBeingUsed": false
+  },
+  {
+    "id": "cb657dd0-7d7b-43ae-bd82-3e01d8cf5cd0",
+    "name": "item 7",
+    "weight": 50,
+    "isBeingUsed": false
+  },
+  {
+    "id": "007426bb-06d9-4992-88bd-2bfde3d3a927",
+    "name": "item 9",
+    "weight": 50,
+    "isBeingUsed": false
+  }
+]

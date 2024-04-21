@@ -32,8 +32,9 @@ const router = express.Router();
 router.get("/", async (req, res) => {
   res.json(
     magicMovers.map((m) => {
-      delete (m as any).completedMissionsCount;
-      return m;
+      const newM = { ...m };
+      delete (newM as any).completedMissionsCount;
+      return newM;
     })
   );
 });

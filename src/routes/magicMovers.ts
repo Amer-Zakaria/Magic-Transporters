@@ -252,7 +252,7 @@ router.post(
       ),
     };
     const newMissions = [...missions].map((m) => {
-      if ((m.id = mission.id)) {
+      if (m.id === mission.id) {
         m = updatedMission;
         return m;
       }

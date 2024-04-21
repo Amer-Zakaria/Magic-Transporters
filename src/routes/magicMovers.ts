@@ -142,9 +142,11 @@ router.post(
       );
 
     // Bring the requested items
-    const requestedMagicItemsIds = req.body.magicItemsIds as string[];
+    const requestedMagicItemsIdsInput = req.body.magicItemsIds as string[];
     const requestedMagicItems = magicItemsData.filter((magicItem) =>
-      requestedMagicItemsIds.some((magicItemId) => magicItem.id === magicItemId)
+      requestedMagicItemsIdsInput.some(
+        (magicItemId) => magicItem.id === magicItemId
+      )
     );
 
     // All items shouldn't be in use
@@ -247,9 +249,9 @@ router.post(
     // Overwrite the missions by adding the new items
     const updatedMission = {
       ...mission,
-      itemsIds: requestedMagicItemsIds.concat(
-        alreadyLoadedItems.map((i) => i.id)
-      ),
+      itemsIds: requestedMagicItems
+        .map((i) => i.id)
+        .concat(alreadyLoadedItems.map((i) => i.id)),
     };
     const newMissions = [...missions].map((m) => {
       if (m.id === mission.id) {

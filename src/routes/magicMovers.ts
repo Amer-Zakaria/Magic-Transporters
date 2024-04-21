@@ -299,7 +299,7 @@ router.post(
 router.get("/rank", (req, res) => {
   const magicMoversOrdered = magicMovers
     .sort((a, b) => b.completedMissionsCount - a.completedMissionsCount)
-    .slice(0, 20)
+    .slice(0, 5)
     .map((i, index) => ({ id: i.id, name: i.name, rank: ++index }));
 
   res.json(magicMoversOrdered);
